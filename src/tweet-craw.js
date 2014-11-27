@@ -19,7 +19,7 @@ var Weibo = require('nodeweibo');
 +-------------------------------------------------
 */
 
-//Weibo.authorize();
+Weibo.authorize();
 
 
 /*
