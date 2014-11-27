@@ -11,6 +11,6 @@
 2. install [nodeweibo](https://www.npmjs.org/package/nodeweibo) package
   - `npm install nodeweibo`
 
-3. You many need to install 'open' package in order to use `node-weibo`
+3. you many need to install 'open' package in order to use `node-weibo`
   - `npm install open`
 
