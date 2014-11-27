@@ -14,5 +14,5 @@
 3. apply for appkey
   - [guidance](http://open.weibo.com/wiki/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97)
 
-4. launch python server
+4. launch python server in local machine
   - `python -m SimpleHTTPServer`
