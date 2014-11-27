@@ -17,7 +17,8 @@
 ### Authorization
 - Create Weibo APP to get appkey and appsecret
   - apply for app, [guidance](http://open.weibo.com/wiki/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97)
-  - remember to setup the authorization call-back 
+  - remember to setup the authorization call-back, i.e., 应用信息>高级信息>授权回调页
 - Change `node-weibo/lib/config/setting.json`
-  - modify the "appKey","appSecret","redirectUrl"
+  - modify the "appKey","appSecret","redirectUrl", here redirectUrl means 授权回调页
+  - 
  
