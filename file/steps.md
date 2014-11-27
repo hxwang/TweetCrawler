@@ -10,3 +10,6 @@
 
 2. install [nodeweibo](https://www.npmjs.org/package/nodeweibo) package
   - `npm install nodeweibo`
+
+3. apply for appkey
+  - [steps](http://open.weibo.com/wiki/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97)
