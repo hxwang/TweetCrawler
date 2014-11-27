@@ -1,5 +1,9 @@
 ## App Authorization
 
+### Overview
+This step has the objective to get the authorization from the user to allow the app to do things on behalf of the user. As a result, you will get a token which allow you to call API to do things for specific user. Each token correponds to a user. 
+
+
 ### Authorization Step
 - launch python server in local machine
   - create an index.html under current folder
