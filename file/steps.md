@@ -27,6 +27,6 @@
   - Copy the [example code](https://github.com/vczero/node-weibo/blob/master/examples/example.js)
   - First, run example 1 to authorize, it will open a webpage to allow you to login and authorize. After authorization you will be directed to the callback url which contains the code
     - Note the authorization code only works on Windows since it use the command `start` to open the web browser; You can modify the code to print out the url, and then open the web brower manually to visit the url
-  
+    - ![](../figs/extendToNonWindows.png)
   - Second, run example 2 using the code from step 1 
  
