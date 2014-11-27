@@ -1,4 +1,4 @@
-## Set-up
+## Develop Procedure
 
 
 ### Develop environment
@@ -11,8 +11,13 @@
 2. install [nodeweibo](https://www.npmjs.org/package/nodeweibo) package
   - `npm install nodeweibo`
 
-3. apply for appkey
-  - [guidance](http://open.weibo.com/wiki/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97)
-
-4. launch python server in local machine
+3. launch python server in local machine
   - `python -m SimpleHTTPServer`
+
+### Authorization
+- Create Weibo APP to get appkey and appsecret
+  - apply for app, [guidance](http://open.weibo.com/wiki/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97)
+  - remember to setup the authorization call-back 
+- Change `node-weibo/lib/config/setting.json`
+  - modify the "appKey","appSecret","redirectUrl"
+ 
