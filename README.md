@@ -5,4 +5,5 @@ craw tweet from sina weibo
 
 
 ### Set up
-- [set up](./file/steps.md)
+- [Environment Set-up](./file/steps.md)
+- [APP authorization](./file/appauth.md)
