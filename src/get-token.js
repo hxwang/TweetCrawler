@@ -1,4 +1,4 @@
-var Weibo = require('nodeweibo');
+var Weibo = require('../../node-weibo');
 
 
 
@@ -17,7 +17,7 @@ var Weibo = require('nodeweibo');
 
 
 var jsonParas = {
-	code:"dbca3d9e75f7bf51f15e0b1bc54103df",
+	code:"501c5831fe12ddcb92f90f99b4490966",
 	grant_type:"authorization_code"
 };
 
@@ -28,8 +28,8 @@ Weibo.OAuth2.access_token(jsonParas,function(data){
 
 /*
 { access_token: '2.007PQfjF5BbcAD1015be62680rnSn1',
-  remind_in: '171680',
-  expires_in: 171680,
+  remind_in: '161405',
+  expires_in: 161405,
   uid: '5255433188' }
   */
 

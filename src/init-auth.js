@@ -1,4 +1,4 @@
-var Weibo = require('nodeweibo');
+var Weibo = require('../../node-weibo');
 
 
 /*
