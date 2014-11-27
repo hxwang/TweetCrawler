@@ -38,9 +38,16 @@
     
     ![](../figs/authorize.PNG)
     
-    - Authorization code
+    - Authorization code is in the url, copy it!
     
     ![](../figs/authorizeCode.png)
     
   - Second, run example 2 using the code from step 1 
+    - modify the code value you got from step 1
+    ```
+    var jsonParas = {
+  	  code:"THE CODE YOU GOT FROM STEP 1",
+  	  grant_type:"authorization_code"
+    };
+    ```
  
