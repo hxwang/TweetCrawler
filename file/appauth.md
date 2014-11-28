@@ -6,7 +6,7 @@ This step has the objective to get the authorization from the user to allow the 
 
 ### Sina oauth
 - The following figure shows how sina oauth works
-![](./figs/auth.jpg)
+![](../figs/auth.jpg)
 
 ### Authorization Step
 - launch python server in local machine
