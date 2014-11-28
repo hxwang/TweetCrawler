@@ -4,6 +4,9 @@
 This step has the objective to get the authorization from the user to allow the app to do things on behalf of the user. As a result, you will get a token which allow you to call API to do things for specific user. Each token correponds to a user. 
   - Usually, a token has expiration time vafies from 1 day to several month. 
 
+### Sina oauth
+- The following figure shows how sina oauth works
+![](./figs/auth.jpg)
 
 ### Authorization Step
 - launch python server in local machine
