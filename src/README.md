@@ -8,7 +8,7 @@
 
 
 ### How to run
-- Step 1: launch python server
+- Step 1: launch python server `python -m SimpleHTTPServer`
 - Step 2: `node init-auth.js`
 - Step 3: `node get-token.js`
 - Step 4: `node getTweets.js`
