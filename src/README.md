@@ -8,6 +8,7 @@
 
 
 ### How to run
+Get more details [here](../file/appauth.md)
 - Step 1: launch python server `python -m SimpleHTTPServer`
 - Step 2: `node init-auth.js`
 - Step 3: `node get-token.js`
