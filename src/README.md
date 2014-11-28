@@ -16,3 +16,12 @@ Get more details [here](../file/appauth.md)
 
 ### Data Sample
 - [a.json](./a.json): crawled weibo sample
+  - Note the data is in json format, thus it is very easy to process the data
+  - for example: you can enumerate on each weibo using `statuses[i]` as shown below
+  ```
+  function getWeibo(statuses){
+	for (var i = statuses.length - 1; i >= 0; i--) {
+		console.log(i, statuses[i]);
+	};
+ }
+  ```
