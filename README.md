@@ -1,7 +1,8 @@
 TweetCrawler
 ============
 
-craw tweet from sina weibo
+### Objective
+- Create a demo to show how to use nodejs API to get tweets from sina weibo
 
 
 ### Set up
