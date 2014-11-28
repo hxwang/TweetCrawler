@@ -13,3 +13,6 @@ Get more details [here](../file/appauth.md)
 - Step 2: `node init-auth.js`
 - Step 3: `node get-token.js`
 - Step 4: `node getTweets.js`
+
+### Data Sample
+- [a.json](./a.json): crawled weibo sample
