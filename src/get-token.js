@@ -17,7 +17,7 @@ var Weibo = require('../../node-weibo');
 
 
 var jsonParas = {
-	code:"501c5831fe12ddcb92f90f99b4490966",
+	code:"599c15c2876344cc02d657ef4b9a7802",
 	grant_type:"authorization_code"
 };
 
