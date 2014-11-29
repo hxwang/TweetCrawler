@@ -1,10 +1,7 @@
-var Weibo = require('nodeweibo');
-var setting = require('./setting.json'); 
+//get configured weibo API,
+//note in weiboapi.js, the appkey is configured
+var Weibo = require('./weiboapi.js');
 
-/*
-    initialize weibo before using it
- */
-Weibo.init(setting);
 
 /*
 +--------------------------------------------------
@@ -21,7 +18,7 @@ Weibo.init(setting);
 
 
 var jsonParas = {
-	code:"5dd488259ff4b9c66546db4a9d199fe9",
+	code:"bbae9fb88571ed8484e4451b7225be8a",
 	grant_type:"authorization_code"
 };
 

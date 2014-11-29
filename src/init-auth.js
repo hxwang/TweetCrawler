@@ -1,10 +1,6 @@
-var Weibo = require('nodeweibo');
-var setting = require('./setting.json'); 
-
-/*
-    initialize weibo before using it
- */
-Weibo.init(setting);
+//get configured weibo API,
+//note in weiboapi.js, the appkey is configured
+var Weibo = require('./weiboapi.js');
 
 
 /*

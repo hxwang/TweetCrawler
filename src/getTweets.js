@@ -1,13 +1,7 @@
+//get configured weibo API,
+//note in weiboapi.js, the appkey is configured
+var Weibo = require('./weiboapi.js');
 
-//import package `node-weibo`, 
-//note: make sure the path and file name is correct
-var Weibo = require('nodeweibo');
-var setting = require('./setting.json'); 
-
-/*
-    initialize weibo before using it
- */
-Weibo.init(setting);
 
 
 //request parameters: 
