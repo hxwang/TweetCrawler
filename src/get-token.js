@@ -1,6 +1,10 @@
-var Weibo = require('../../node-weibo');
+var Weibo = require('nodeweibo');
+var setting = require('./setting.json'); 
 
-
+/*
+    initialize weibo before using it
+ */
+Weibo.init(setting);
 
 /*
 +--------------------------------------------------
@@ -17,7 +21,7 @@ var Weibo = require('../../node-weibo');
 
 
 var jsonParas = {
-	code:"599c15c2876344cc02d657ef4b9a7802",
+	code:"5dd488259ff4b9c66546db4a9d199fe9",
 	grant_type:"authorization_code"
 };
 

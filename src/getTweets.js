@@ -1,8 +1,13 @@
 
 //import package `node-weibo`, 
 //note: make sure the path and file name is correct
-var Weibo = require('../../node-weibo');
+var Weibo = require('nodeweibo');
+var setting = require('./setting.json'); 
 
+/*
+    initialize weibo before using it
+ */
+Weibo.init(setting);
 
 
 //request parameters: 
