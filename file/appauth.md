@@ -19,8 +19,8 @@ This step has the objective to get the authorization from the user to allow the 
   
   ![](../figs/redirectUrl.png)
 
-- Change `node-weibo/lib/config/setting.json`
-  - modify the "appKey","appSecret","redirectUrl", here redirectUrl means 授权回调页
+- Create a file name  `setting.json`
+  - set the "appKey","appSecret","redirectUrl", here redirectUrl means 授权回调页, as shown [here](../src/setting.json)
 - Execute the [example code](https://github.com/vczero/node-weibo/blob/master/examples/example.js) to get token
   - Copy the [example code](https://github.com/vczero/node-weibo/blob/master/examples/example.js)
   - First, run example 1 to authorize, it will open a webpage to allow you to login and authorize. After authorization you will be directed to the callback url which contains the code
